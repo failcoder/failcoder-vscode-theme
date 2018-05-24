@@ -4,6 +4,7 @@
   "publisher": "Steven Jackson",
   "author": "Steven Jackson",
   "description": "The Failcoder Syntax theme for Visual Studio Code",
+  "repository": "https://github.com/failcoder/failcoder-vscode-theme",
   "version": "1.0.1",
   "license": "MIT",
   "scripts": {
