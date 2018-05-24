@@ -1,0 +1,33 @@
+{
+  "name": "failcoder-vscode-theme",
+  "displayName": "Failcoder Theme",
+  "publisher": "Steven Jackson",
+  "author": "Steven Jackson",
+  "description": "The Failcoder Syntax theme for Visual Studio Code",
+  "version": "1.0.1",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Failcoder Theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.10",
+    "failcoder-vscode-generator": "file:failcoder-vscode-generator-1.0.1.tgz",
+    "typescript": "^2.2.1"
+  }
+}
