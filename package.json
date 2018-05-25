@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^7.0.10",
-    "failcoder-vscode-generator": "file:failcoder-vscode-generator-1.0.1.tgz",
+    "failcoder-vscode-generator": "file:../failcoder-vscode-generator/failcoder-vscode-generator-1.0.1.tgz",
     "typescript": "^2.2.1"
   }
 }
