@@ -1,5 +1,5 @@
 import * as path from 'path';
-import { generateTheme, IColorSet } from 'failcoder-vscode-generator';
+import { generateTheme, IColorSet } from './generator/dist/index.js';
 
 const themeName = 'Failcoder Theme';
 

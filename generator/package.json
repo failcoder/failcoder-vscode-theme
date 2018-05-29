@@ -1,0 +1,33 @@
+{
+  "name": "failcoder-vscode-generator",
+  "version": "1.0.1",
+  "description": "Generate themes for VS Code",
+  "main": "./dist/index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "prestart": "tsc ./demo/generate.ts",
+    "start": "node ./demo/generate.js",
+    "prepare": "npm run build",
+    "lint": "tslint ./src/*.ts"
+  },
+  "author": "Steven Jackson",
+  "license": "MIT",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "files": [
+    "./dist/*.js",
+    "./dist/*.d.ts"
+  ],
+  "typings": "dist/index",
+  "devDependencies": {
+    "@types/node": "^6.0.41",
+    "tslint": "^5.9.1",
+    "tslint-consistent-codestyle": "^1.13.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}

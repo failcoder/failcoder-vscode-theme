@@ -8,7 +8,8 @@
   "version": "1.0.1",
   "license": "MIT",
   "scripts": {
-    "prestart": "tsc index.ts",
+    "build": "tsc index.ts",
+    "prestart": "npm run build",
     "start": "node index.js"
   },
   "engines": {
@@ -28,7 +29,8 @@
   },
   "devDependencies": {
     "@types/node": "^7.0.10",
-    "failcoder-vscode-generator": "file:../failcoder-vscode-generator/failcoder-vscode-generator-1.0.1.tgz",
-    "typescript": "^2.2.1"
+    "tslint": "^5.9.1",
+    "tslint-consistent-codestyle": "^1.13.0",
+    "typescript": "^2.8.3"
   }
 }

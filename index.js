@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var path = require("path");
-var failcoder_vscode_generator_1 = require("failcoder-vscode-generator");
+var index_js_1 = require("./generator/dist/index.js");
 var themeName = 'Failcoder Theme';
 var colorSet = {
     type: 'dark',
@@ -28,4 +28,4 @@ var colorSet = {
         errors: '#E92E2E'
     }
 };
-failcoder_vscode_generator_1.generateTheme(themeName, colorSet, path.join(__dirname, 'theme.json'));
+index_js_1.generateTheme(themeName, colorSet, path.join(__dirname, 'theme.json'));
